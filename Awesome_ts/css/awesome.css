@@ -1,0 +1,60 @@
+.awesome {
+    padding: 205px 0  116px;
+}
+.container   {
+max-width: 1170px;
+margin: auto;
+padding: 0 15px;
+}
+.title {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 34px;
+    font-family: Raleway;
+    font-weight: 400;
+}
+.line {
+    width: 60px ;
+    right: 2px;
+    border: 1px solid coral;
+    margin: auto;
+    margin-bottom: 34px;
+}
+.awesome-text {
+    text-align: center;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 400;
+    margin-bottom: 64px;
+
+}
+.wrap  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.card {
+    width: 350px;
+}
+.card-img {
+    border: 1px solid coral;
+    width: 68px;
+    height: 68px;
+    margin: 0 auto  30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+.card-title  {
+    text-align: center;
+    font-size: 20px;
+}
+.card-text  {
+    text-align: center;
+    font-weight: 400;
+    padding: 16px 20px  0;
+}
