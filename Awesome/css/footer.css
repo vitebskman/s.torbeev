@@ -1,0 +1,26 @@
+.footer {
+    background-color: black;
+}
+.footer-social {
+    width: 320px;
+    margin: auto;
+}
+.navigation-social-list {
+    text-align: center;
+}
+.footer-social-list-item {
+  font-size: 23px;
+  color: #868788;
+  line-height: 50px;
+  margin: 0 10px;
+  transition: 0.3s
+}
+.footer-social-list-item:hover {
+  color: blue;
+  transform: scale(1.5);
+}
+.copirate {
+    text-align: center;
+    color: #868788;
+    padding-bottom: 15px;
+}

@@ -15,11 +15,11 @@ padding: 0 15px;
     font-weight: 400;
 }
 .line {
-    width: 60px ;
+    /* width: 60px ;
     right: 2px;
     border: 1px solid coral;
     margin: auto;
-    margin-bottom: 34px;
+    margin-bottom: 34px; */
 }
 .awesome-text {
     text-align: center;
@@ -27,8 +27,16 @@ padding: 0 15px;
     font-family: Open Sans;
     font-weight: 400;
     margin-bottom: 64px;
-
 }
+.awesome-text::after {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color: coral;
+    display: inline-block;
+    margin-top: 64px;
+}
+
 .wrap  {
     display: flex;
     justify-content: space-between;

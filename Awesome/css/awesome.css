@@ -1,0 +1,73 @@
+.card {
+  width: 350px;
+}
+.fa-laptop {
+  font-size: 34px;
+  border: 1px solid coral;
+  width: 68px;
+  height: 68px;
+  margin: 0 auto  30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  color: orange;
+}
+.fa-laptop:hover {
+  color: crimson;
+}
+.fa-keyboard {
+font-size: 34px;
+  border: 1px solid coral;
+  width: 68px;
+  height: 68px;
+  margin: 0 auto  30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  color: orange;  
+}
+.fa-keyboard:hover {
+  color: crimson;
+}
+.fa-bolt-lightning {
+font-size: 34px;
+  border: 1px solid coral;
+  width: 68px;
+  height: 68px;
+  margin: 0 auto  30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  color: orange; 
+}
+.fa-bolt-lightning:hover {
+  color: crimson;
+}
+/* .card-img {
+  border: 1px solid coral;
+  width: 68px;
+  height: 68px;
+  margin: 0 auto  30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+} */
+.card-title  {
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+}
+.card-text  {
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  margin: 16px 20px  0;
+}
